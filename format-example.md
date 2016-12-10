@@ -1,5 +1,5 @@
-# C-plus-plus
-store c++ programs.
+# read me file format example
+show the basic format for read me file in github
 
 **This is the test file of bold**.
 
