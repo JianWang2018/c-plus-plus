@@ -1,6 +1,6 @@
 # C-plus-plus
-store c++ programs
-**This is the test file of bold**
+store c++ programs.
+**This is the test file of bold**.
 This site was built using [GitHub Pages](https://pages.github.com/).
 - George Washington
 - John Adams
