@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=interview_question
 ConfigurationName      :=Debug
-WorkspacePath          :=/home/jianwang/Documents/interview
-ProjectPath            :=/home/jianwang/Documents/interview/interview_question
+WorkspacePath          :=/home/jianwang/Documents/c-plus-plus/interview
+ProjectPath            :=/home/jianwang/Documents/c-plus-plus/interview/interview_question
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=jianwang
-Date                   :=28/12/16
+Date                   :=31/12/16
 CodeLitePath           :=/home/jianwang/.codelite
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/akuna_problem3.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/transmarket_code_1.cpp$(ObjectSuffix) $(IntermediateDirectory)/transmarket_code_2.cpp$(ObjectSuffix) $(IntermediateDirectory)/transmarket_code_3.cpp$(ObjectSuffix) $(IntermediateDirectory)/transmarket_code_4.cpp$(ObjectSuffix) 
 
 
 
@@ -91,13 +91,37 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/akuna_problem3.cpp$(ObjectSuffix): akuna_problem3.cpp $(IntermediateDirectory)/akuna_problem3.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jianwang/Documents/interview/interview_question/akuna_problem3.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/akuna_problem3.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/akuna_problem3.cpp$(DependSuffix): akuna_problem3.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/akuna_problem3.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/akuna_problem3.cpp$(DependSuffix) -MM akuna_problem3.cpp
+$(IntermediateDirectory)/transmarket_code_1.cpp$(ObjectSuffix): transmarket/code/1.cpp $(IntermediateDirectory)/transmarket_code_1.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jianwang/Documents/c-plus-plus/interview/interview_question/transmarket/code/1.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/transmarket_code_1.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/transmarket_code_1.cpp$(DependSuffix): transmarket/code/1.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/transmarket_code_1.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/transmarket_code_1.cpp$(DependSuffix) -MM transmarket/code/1.cpp
 
-$(IntermediateDirectory)/akuna_problem3.cpp$(PreprocessSuffix): akuna_problem3.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/akuna_problem3.cpp$(PreprocessSuffix)akuna_problem3.cpp
+$(IntermediateDirectory)/transmarket_code_1.cpp$(PreprocessSuffix): transmarket/code/1.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/transmarket_code_1.cpp$(PreprocessSuffix)transmarket/code/1.cpp
+
+$(IntermediateDirectory)/transmarket_code_2.cpp$(ObjectSuffix): transmarket/code/2.cpp $(IntermediateDirectory)/transmarket_code_2.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jianwang/Documents/c-plus-plus/interview/interview_question/transmarket/code/2.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/transmarket_code_2.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/transmarket_code_2.cpp$(DependSuffix): transmarket/code/2.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/transmarket_code_2.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/transmarket_code_2.cpp$(DependSuffix) -MM transmarket/code/2.cpp
+
+$(IntermediateDirectory)/transmarket_code_2.cpp$(PreprocessSuffix): transmarket/code/2.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/transmarket_code_2.cpp$(PreprocessSuffix)transmarket/code/2.cpp
+
+$(IntermediateDirectory)/transmarket_code_3.cpp$(ObjectSuffix): transmarket/code/3.cpp $(IntermediateDirectory)/transmarket_code_3.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jianwang/Documents/c-plus-plus/interview/interview_question/transmarket/code/3.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/transmarket_code_3.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/transmarket_code_3.cpp$(DependSuffix): transmarket/code/3.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/transmarket_code_3.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/transmarket_code_3.cpp$(DependSuffix) -MM transmarket/code/3.cpp
+
+$(IntermediateDirectory)/transmarket_code_3.cpp$(PreprocessSuffix): transmarket/code/3.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/transmarket_code_3.cpp$(PreprocessSuffix)transmarket/code/3.cpp
+
+$(IntermediateDirectory)/transmarket_code_4.cpp$(ObjectSuffix): transmarket/code/4.cpp $(IntermediateDirectory)/transmarket_code_4.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jianwang/Documents/c-plus-plus/interview/interview_question/transmarket/code/4.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/transmarket_code_4.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/transmarket_code_4.cpp$(DependSuffix): transmarket/code/4.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/transmarket_code_4.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/transmarket_code_4.cpp$(DependSuffix) -MM transmarket/code/4.cpp
+
+$(IntermediateDirectory)/transmarket_code_4.cpp$(PreprocessSuffix): transmarket/code/4.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/transmarket_code_4.cpp$(PreprocessSuffix)transmarket/code/4.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

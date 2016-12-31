@@ -2,15 +2,7 @@
 <Session Name="/home/jianwang/Documents/c-plus-plus/interview/interview.workspace">
   <int Value="0" Name="m_selectedTab"/>
   <wxString Value="/home/jianwang/Documents/c-plus-plus/interview/interview.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="/home/jianwang/Documents/c-plus-plus/interview/interview_question/akuna_problem3.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-  </TabInfoArray>
+  <TabInfoArray Name="TabInfoArray"/>
   <SerializedObject Name="m_breakpoints">
     <long Value="1" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
