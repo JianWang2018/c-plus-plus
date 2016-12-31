@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="leet-code" InternalType="Console">
+<CodeLite_Project Name="interview_question" InternalType="Console">
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -23,7 +23,7 @@
       <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
         <![CDATA[]]>
       </Environment>
-      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="yes">
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
         <DebuggerSearchPaths/>
         <PostConnectCommands/>
         <StartupCommands/>
@@ -93,10 +93,12 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="main.cpp"/>
-    <File Name="leet-code.h"/>
-    <File Name="1.two-sum.cpp"/>
+    <File Name="akuna_problem3.cpp"/>
+    <File Name="akuna_problem4.cpp"/>
+    <File Name="1.cpp"/>
+    <File Name="problem3-2"/>
+    <File Name="4.cpp"/>
+    <File Name="3.cpp"/>
+    <File Name="2.cpp"/>
   </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>
