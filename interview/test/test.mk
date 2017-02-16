@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=interview_question
+ProjectName            :=test
 ConfigurationName      :=Debug
 WorkspacePath          :=/home/jianwang/Documents/c-plus-plus/interview
-ProjectPath            :=/home/jianwang/Documents/c-plus-plus/interview/interview_question
+ProjectPath            :=/home/jianwang/Documents/c-plus-plus/interview/test
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="interview_question.txt"
+ObjectsFileList        :="test.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -50,7 +50,7 @@ LibPath                := $(LibraryPathSwitch).
 AR       := ar rcus
 CXX      := g++
 CC       := gcc
-CXXFLAGS :=  -g -O0 -std=c++14 -std=c++11 -Wall $(Preprocessors)
+CXXFLAGS :=  -g -O0 -std=c++11 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -std=c++11 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := as
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/goldmana_sach.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
 
@@ -91,13 +91,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/goldmana_sach.cpp$(ObjectSuffix): goldmana_sach.cpp $(IntermediateDirectory)/goldmana_sach.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jianwang/Documents/c-plus-plus/interview/interview_question/goldmana_sach.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/goldmana_sach.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/goldmana_sach.cpp$(DependSuffix): goldmana_sach.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/goldmana_sach.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/goldmana_sach.cpp$(DependSuffix) -MM goldmana_sach.cpp
+$(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jianwang/Documents/c-plus-plus/interview/test/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
-$(IntermediateDirectory)/goldmana_sach.cpp$(PreprocessSuffix): goldmana_sach.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/goldmana_sach.cpp$(PreprocessSuffix)goldmana_sach.cpp
+$(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix)main.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
