@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=jianwang
-Date                   :=16/01/17
+Date                   :=27/02/17
 CodeLitePath           :=/home/jianwang/.codelite
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -97,7 +97,7 @@ $(IntermediateDirectory)/goldmana_sach.cpp$(DependSuffix): goldmana_sach.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/goldmana_sach.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/goldmana_sach.cpp$(DependSuffix) -MM goldmana_sach.cpp
 
 $(IntermediateDirectory)/goldmana_sach.cpp$(PreprocessSuffix): goldmana_sach.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/goldmana_sach.cpp$(PreprocessSuffix)goldmana_sach.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/goldmana_sach.cpp$(PreprocessSuffix) goldmana_sach.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

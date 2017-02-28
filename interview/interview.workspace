@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Workspace Name="interview" Database="interview.tags">
+<CodeLite_Workspace Name="interview" Database="interview.tags" Version="10.0.0">
   <Project Name="interview_question" Path="interview_question/interview_question.project" Active="No"/>
-  <Project Name="test" Path="test/test.project" Active="Yes"/>
+  <Project Name="test" Path="test/test.project" Active="No"/>
+  <Project Name="akuna_dev" Path="akuna_dev/akuna_dev.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="interview_question" ConfigName="Debug"/>
       <Project Name="test" ConfigName="Debug"/>
+      <Project Name="akuna_dev" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="interview_question" ConfigName="Release"/>
       <Project Name="test" ConfigName="Release"/>
+      <Project Name="akuna_dev" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
