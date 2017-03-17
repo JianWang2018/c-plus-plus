@@ -20,10 +20,16 @@
 #include <iostream>
 #include <algorithm>
 #include <unordered_map>
+#include <string>
+#include <vector>
+using namespace std;
 
 using namespace std;
 
 int main(){
+    vector <int> test;
+    string s;
+    s.
     vector <vector<int>> vec{{1,2,3,4,5,6,7},{1,2,3}};
     auto a =vec.begin();
     

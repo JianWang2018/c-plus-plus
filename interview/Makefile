@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ akuna_dev - Debug ]----------"
-	@cd "akuna_dev" && "$(MAKE)" -f  "akuna_dev.mk"
+	@echo "----------Building project:[ test - Debug ]----------"
+	@cd "test" && "$(MAKE)" -f  "test.mk"
 clean:
-	@echo "----------Cleaning project:[ akuna_dev - Debug ]----------"
-	@cd "akuna_dev" && "$(MAKE)" -f  "akuna_dev.mk" clean
+	@echo "----------Cleaning project:[ test - Debug ]----------"
+	@cd "test" && "$(MAKE)" -f  "test.mk" clean

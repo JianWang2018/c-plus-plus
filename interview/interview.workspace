@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="interview" Database="interview.tags" Version="10.0.0">
   <Project Name="interview_question" Path="interview_question/interview_question.project" Active="No"/>
-  <Project Name="test" Path="test/test.project" Active="No"/>
-  <Project Name="akuna_dev" Path="akuna_dev/akuna_dev.project" Active="Yes"/>
+  <Project Name="test" Path="test/test.project" Active="Yes"/>
+  <Project Name="akuna_dev" Path="akuna_dev/akuna_dev.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
