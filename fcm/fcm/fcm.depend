@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1508781427 source:/media/jianwang/Study1/repository/c-plus-plus/fcm/fcm/fcm.cpp
+	<stdio.h>
+	<malloc.h>
+	<math.h>
+	"fcm.h"
+	<fstream>
+	<vector>
+	<algorithm>
+
+1508781328 /media/jianwang/Study1/repository/c-plus-plus/fcm/fcm/fcm.h
+	<iostream>
+	<string>
+	<vector>
+
